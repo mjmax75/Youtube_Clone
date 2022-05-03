@@ -1,0 +1,3 @@
+@value mediaSmall: (min-width: 45rem);
+@value mediaMedium: (min-width: 65rem);
+@value mediaLarge: (min-width: 80rem);

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+@value bodyFont: "Roboto", sans-serif;
+
+/* 1rem = 16px */
+@value bigFontSize: 2rem;
+@value h1FontSize: 1.5rem;
+@value h2FontSize: 1.25rem;
+@value h3FontSize: 1.125rem;
+@value normalFontSize: 0.938rem;
+@value smallFontSize: 0.813rem;
+@value smallerFontSize: 0.75rem;
+
+/*========== FONT WEIGHT  ==========*/
+@value fontLight: 100;
+@value fontSemiLight: 300;
+@value fontRegular: 400;
+@value fontBold: 500;
+
+/*========== MARGIN BOTTOM  ==========*/
+/* 0.25rem = 4px, 0.5rem = 8px, 0.75rem = 12px ... */
+@value margin025: 0.25rem;
+@value margin05: 0.5rem;
+@value margin075: 0.75rem;
+@value margin1: 1rem;
+@value margin15: 1.5rem;
+@value margin2: 2rem;
+@value margin25: 2.5rem;
+@value margin3: 3rem;
+
+/*========== Z INDEX  ==========*/
+@value zTooltip: 10;
+@value zFixed: 100;
+@value zModal: 1000;
