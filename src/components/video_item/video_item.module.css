@@ -1,9 +1,9 @@
 .container {
-  padding: 0.2em;
+  padding: 0.25rem;
 }
 
 .container.grid {
-  width: 50%;
+  width: 25%;
 }
 
 .container.list {
@@ -12,32 +12,69 @@
 
 .video {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  list-style: none;
   border: 1px solid lightgray;
-  box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   cursor: pointer;
-  transition: transform 250ms ease-in;
+  height: 100%;
+  transition: all 300ms ease-in;
 }
 
 .video:hover {
   transform: scale(1.02);
 }
 
-.metadata {
-  margin-left: 0.2em;
+.video.row {
+  flex-direction: row;
 }
 
-.thumbnail {
-  width: 40%;
-  height: 100%;
+.video.column {
+  flex-direction: column;
+}
+
+.video.row .thumbnail {
+  width: 50%;
+}
+
+.metadata {
+  padding: 1rem 0;
+  margin-left: 1rem;
+}
+
+.title {
+  font-size: 0.938rem;
+  padding: 0.25rem;
+  height: 3rem;
+  overflow: auto;
+}
+
+.channel {
+  font-size: 0.75rem;
+  padding-left: 0.25rem;
+  color: #616161;
 }
 
 .title,
 .channel {
   margin: 0;
-  font-size: 0.8rem;
 }
 
-.channel {
-  font-size: 0.6rem;
+@media screen and (max-width: 80rem) {
+  .container.grid {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 65rem) {
+  .container.grid {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  .container.grid {
+    width: 100%;
+  }
 }

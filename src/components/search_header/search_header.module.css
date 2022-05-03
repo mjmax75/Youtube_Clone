@@ -1,29 +1,75 @@
 .header {
   display: flex;
   height: 4rem;
-  padding: 0.8em 1em;
-  background: black;
-  color: white;
+  padding: 0.5rem 1em;
+  background-color: #212427;
+  color: #fff;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 1em;
+  margin-right: 1rem;
+  font-size: 0.75rem;
+}
+
+.logoIcon {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: #ff0000;
+}
+
+.title {
+  color: #fff;
 }
 
 .input {
   flex-basis: 100%;
-  font-size: 1.2rem;
+  height: 2.5rem;
+  margin: auto;
+  font-size: 1rem;
   outline: 0;
+  border-radius: 2px;
+  border: 1px solid #303030;
+  margin-left: 1rem;
+}
+
+.input:focus {
+  border-color: #1c62b9;
+  outline: none;
 }
 
 .button {
-  background-color: darkgrey;
-  outline: 0;
+  background-color: #f5f5f7;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 2.4rem;
+  margin: auto;
+  margin-right: 5rem;
+  padding: 0 1.75rem;
 }
 
-.buttonImg {
+.button:hover {
+  color: #616161;
+}
+
+.buttonIcon {
   padding: 0.5em 0.2em;
   height: 100%;
+}
+
+@media screen and (max-width: 50rem) {
+  .logo {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .title {
+    margin: 0;
+    margin-left: 1.2em;
+    font-size: 0.7rem;
+  }
 }
