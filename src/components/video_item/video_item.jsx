@@ -5,6 +5,7 @@ const VideoItem = memo(
   ({ video, video: { snippet }, onVideoClick, display }) => {
     const displayType = display === "list" ? styles.list : styles.grid;
     const detailListType = display === "list" ? styles.row : styles.column;
+
     return (
       <li
         className={`${styles.container} ${displayType}`}
@@ -16,10 +17,13 @@ const VideoItem = memo(
             src={snippet.thumbnails.medium.url}
             alt="video thumbnail"
           />
-          <div className={styles.metadata}>
-            <p className={styles.title}>{snippet.title}</p>
-            <p className={styles.channel}>{snippet.channelTitle}</p>
-          </div>
+        </div>
+        <div className={styles.info}>
+          <h3 className={styles.title}>{snippet.title}</h3>
+          <p className={styles.description}>
+            {snippet.channelTitle} • Upload Date:{" "}
+            {snippet.publishedAt.substr(0, 10)}
+          </p>
         </div>
       </li>
     );

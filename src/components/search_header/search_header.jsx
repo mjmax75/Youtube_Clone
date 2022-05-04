@@ -10,6 +10,10 @@ const SearchHeader = memo(({ onSearch }) => {
     onSearch(value);
   };
 
+  const onHomeClick = () => {
+    window.location = "/";
+  };
+
   const onClick = () => {
     handleSearch();
   };
@@ -22,10 +26,15 @@ const SearchHeader = memo(({ onSearch }) => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <Unicons.UilYoutube className={styles.logoIcon} />
+      <button className={styles.logo} onClick={onHomeClick}>
+        <img
+          src="../public/images/myLogo.png"
+          alt="logo"
+          className={styles.logoIcon}
+        />
+        {/* <Unicons.UilYoutube className={styles.logoIcon} /> */}
         <h1 className={styles.title}>YouTube</h1>
-      </div>
+      </button>
       <input
         ref={inputRef}
         className={styles.input}
