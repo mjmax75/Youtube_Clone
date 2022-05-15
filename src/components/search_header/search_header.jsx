@@ -27,12 +27,12 @@ const SearchHeader = memo(({ onSearch }) => {
   return (
     <header className={styles.header}>
       <button className={styles.logo} onClick={onHomeClick}>
-        <img
+        {/* <img
           src="../public/images/myLogo.png"
           alt="logo"
           className={styles.logoIcon}
-        />
-        {/* <Unicons.UilYoutube className={styles.logoIcon} /> */}
+        /> */}
+        <Unicons.UilYoutube className={styles.logoIcon} />
         <h1 className={styles.title}>YouTube</h1>
       </button>
       <input

@@ -40,9 +40,9 @@
   flex-direction: column;
 }
 
-.video.row .thumbnail {
+/* .video.row .thumbnail {
   width: 50%;
-}
+} */
 
 .metadata {
   padding: 1rem 0;
