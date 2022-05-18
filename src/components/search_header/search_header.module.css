@@ -68,13 +68,6 @@ button {
 
 @media screen and (max-width: 50rem) {
   .logo {
-    flex-direction: column;
     margin-right: 0;
-  }
-
-  .title {
-    margin: 0;
-    margin-left: 1.2em;
-    font-size: 0.7rem;
   }
 }
