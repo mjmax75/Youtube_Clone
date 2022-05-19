@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Youtube Mini Clone using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone Coding using Youtube API and React
+
+Demo Link → https://minji-youtube-mini-clone.netlify.app/
 
 ## Available Scripts
 
