@@ -7,17 +7,16 @@ Demo Link → https://minji-youtube-mini-clone.netlify.app/
 ## 🗂 Table of Contents
 
 1. [Tech Stack](#1-tech-stack)
-2. [Overview](#2-overview)
-3. [About this Project](#3-about-this-project)
-4. [Structure](#4-structure)
-5. [Improvements](#5-improvements)
-6. [Acknowledgements](#6-acknowledgements)
+2. [About this Project](#2-about-this-project)
+3. [Structure](#3-structure)
+4. [Improvements](#4-improvements)
+5. [Acknowledgements](#5-acknowledgements)
 
 ## 1. Tech Stack
 
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" /><img alt="Yarn" src ="https://img.shields.io/badge/Yarn-2c8ebb.svg?&style=for-the-badge&logo=yarn&logoColor=white"/> <img alt="Netlify" src ="https://img.shields.io/badge/Netlify-00c7b7.svg?&style=for-the-badge&logo=netlify&logoColor=white"/>
 
-## 2. Overview
+## 2. About this Project
 
 ### Default Page
 
@@ -31,10 +30,29 @@ Demo Link → https://minji-youtube-mini-clone.netlify.app/
 <img width="45%" alt="default_small_screen" src="/public/images/readme/default_small.png">
 </div>
 
-## 3. About this Project
+- Receive data from the YouTube API using Postman to display the channel thumbnail, title, channel name, uploaded date of the most popular video as of today
+- The number of videos displayed gets adjusted according to the screen size - Responsive design.
 
-## 4. Structure
+### Search Page
 
-## 5. Improvements
+<div>
+<img width="45%" alt="search_mac" src="/public/images/readme/search_mac.png"> 
+<img width="45%" alt="search_smaller" src="/public/images/readme/search_smaller.png">
+</div>
 
-## 6. Acknowledgements
+- When the user types in keywords in the search bar, the application will display the corresponding videos using YouTube API.
+
+### Play Page
+
+<div>
+<img width="45%" alt="play_mac" src="/public/images/readme/play_mac.png"> 
+<img width="45%" alt="play_smaller" src="/public/images/readme/play_smaller.png">
+</div>
+
+- When the user clicks a thumbnail on the searched list, the page will display the video and the metadata that corresponds the videoid.
+
+## 3. Structure
+
+## 4. Improvements
+
+## 5. Acknowledgements
