@@ -42,7 +42,7 @@ Demo Link → https://minji-youtube-mini-clone.netlify.app/
 
 - When the user types in keywords in the search bar, the application will display the corresponding videos using YouTube API.
 
-### 📼 Play Page
+### 📼 Play Video Page
 
 <div>
 <img width="45%" alt="play_mac" src="/public/images/readme/play_mac.png"> 
@@ -62,6 +62,30 @@ Demo Link → https://minji-youtube-mini-clone.netlify.app/
 1. When the <em>App</em> component gets mounted, it will get the most popular videos using YouTube API stored in <em>youtube.js</em> and <em>.env</em>.
 2. The <em>App</em> component will send props to <em>video list</em> and <em>video item</em> component (including number 3).
 3. It will render the <em>video items</em> component in <em>video list</em> component.
+
+### 🔎 Search Page
+
+<div>
+<img width="100%" alt="keyword_structure" src="/public/images/readme/keyword_structure.png">
+</div>
+
+1. The <em>App</em> component receives the keyword When the user types the keyword in the search input bar.
+2. The <em>App</em> state gets changed.
+3. Using the class function in <em>youtube.js</em>, it will get the corresponding videos.
+4. It will update the <em>video list</em> component.
+5. Then, it will render the <em>video item</em> component.
+
+### 📼 Play Video Page
+
+<div>
+<img width="100%" alt="play_structure" src="/public/images/readme/play_structure.png">
+</div>
+
+1. The user clicks one of the video item.
+2. The <em>App</em> component's state gets changed.
+3. Using the class function in <em>youtube.js</em>, it will get the corresponding video url.
+4. It will update the <em>play video</em> component.
+5. Then, it will render the <em>video
 
 ## 4. Improvements
 
