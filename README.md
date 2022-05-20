@@ -61,6 +61,8 @@ This is a mini YouTube Clone project, which has the following features.
 
 ## 3. Structure
 
+Demo Link → https://minji-youtube-mini-clone.netlify.app/
+
 ### 🏠 Default page - Most popular videos
 
 <div>
