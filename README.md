@@ -1,6 +1,6 @@
-# Youtube Mini Clone using React
+# YouTube Mini Clone using React
 
-Clone Coding using Youtube API and React
+Clone Coding using YouTube API and React
 
 Demo Link → https://minji-youtube-mini-clone.netlify.app/
 
