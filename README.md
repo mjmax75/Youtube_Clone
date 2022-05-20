@@ -18,6 +18,14 @@ Demo Link → https://minji-youtube-mini-clone.netlify.app/
 
 ## 2. About this Project
 
+This is a mini YouTube Clone project, which has the following features.
+
+1. The default page shows the most popular videos of the day
+2. A user can type in keyword to search the corresponding video
+3. A user can click the video either from the default page or the result from the search to play the video and get the data of the video
+
+<img width="90%" alt="demo_gif" src="/public/images/readme/youtube_demo.gif">
+
 ### 🏠 Default Page
 
 <div>
@@ -85,8 +93,13 @@ Demo Link → https://minji-youtube-mini-clone.netlify.app/
 2. The <em>App</em> component's state gets changed.
 3. Using the class function in <em>youtube.js</em>, it will get the corresponding video url.
 4. It will update the <em>play video</em> component.
-5. Then, it will render the <em>video
+5. Then, it will render the video
 
 ## 4. Improvements
 
+Some of the features I would like to work on in the future are 1) infinite scroll function on the default page 2) channel label image on the side of channel title and uploaded date 3) the comments/ number of likes and dislikes/ number of subscribers 4) light and dark mode 5) the loading spinner and much more!
+
 ## 5. Acknowledgements
+
+- YouTube Data API
+- Dream Coding
